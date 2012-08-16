@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="plugin">
+	<name>Slug Sync</name>
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
+
+	<author url="http://owenw.com/">Owen Winkler</author>
+
+	<version>1.0</version>
+	<url>http://redalt.com/</url>
+	<description><![CDATA[Synchronizes the slug with the title that is saved with the post.]]></description>
+
+	<copyright>2012</copyright>
+
+	<help>
+		<value><![CDATA[
+		<p>Activate this plugin, and when you save a post, if you have changed the title, the slug will be changed to match the title.
+		]]></value>
+	</help>
+	<guid>a8b205f7-a431-4eb5-b62b-1463b9d25ac2</guid>
+
+</pluggable>
