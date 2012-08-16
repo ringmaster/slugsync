@@ -4,9 +4,7 @@ class SlugsyncPlugin extends Plugin
 {
 	public function filter_plugin_config( $actions, $plugin_id )
 	{
-		if ( $this->plugin_id() == $plugin_id ){
-			$actions[]= _t( 'Configure', 'slugsync' );
-		}
+		$actions[]= _t( 'Configure', 'slugsync' );
 		return $actions;
 	}
 
